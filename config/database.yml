@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: kantid_development
+  database: job_development
 production:
   <<: *default
-  database: kantid_production
+  database: job_production
   username: ran
   password: ranjan
 test:
   <<: *default
-  database: kantid_test
+  database: job_test

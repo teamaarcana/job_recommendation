@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  pool: 5
+  username: ran
+  password: ranjan
+  socket: /var/run/postgresql
+
+development:
+  <<: *default
+  database: kantid_development
+production:
+  <<: *default
+  database: kantid_production
+  username: ran
+  password: ranjan
+test:
+  <<: *default
+  database: kantid_test

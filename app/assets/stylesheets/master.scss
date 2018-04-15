@@ -12,6 +12,7 @@ body {
 	overflow-x:hidden;
 	-webkit-font-smoothing: antialiased;
 	background-color: #f7f7f7;
+	height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -329,14 +330,10 @@ textarea {
 	padding-bottom: 2px;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
 
-html,
-body {
-  height: 100%;
-}
-
+/* ==========================================================================
+ 	Footer
+ ========================================================================== */
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
@@ -351,3 +348,4 @@ body {
 .footer {
   height: 45px;
 }
+

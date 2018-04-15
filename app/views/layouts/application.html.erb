@@ -16,10 +16,11 @@
   </head>
 
   <body>
+ 	 <div id="wrap">
+  		<%= render 'shared/nav' %>
 
-  	<%= render 'shared/nav' %>
-
-    <%= yield %>
+    	<%= yield %>	
+    </div>
 
     <%= render 'shared/foot' %>
 

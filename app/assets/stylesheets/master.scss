@@ -332,6 +332,190 @@ textarea {
 
 
 /* ==========================================================================
+ 	Banner Job
+========================================================================== */
+
+.banner-job {
+	background-image: url('banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	padding: 65px 0 75px;
+}
+
+.banner-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: rgba(40, 45, 50, 0.9);
+}
+
+.banner-job h1 {
+	font-size: 51px;
+}
+
+.banner-job h3 {
+	font-size: 22px;
+	font-weight: 300;
+	margin: 25px 0 30px;
+}
+
+.banner-job .banner-form input {
+	margin-left: 0;
+	width: 60%;
+}
+
+.banner-job .category-dropdown {
+	border-left: 1px solid #e6e6e6;
+	border-right: 0;
+	border-radius: 0;
+	width: 20%;
+	padding: 0 35px;
+}
+
+.banner-job .dropdown-menu {
+	min-width: 192px;
+}
+
+.category-dropdown a:hover,
+.dropdown-menu>li>a:hover {
+	color: #00a651;
+}
+
+
+/* ==========================================================================
+ 	banner-form
+ ========================================================================== */
+
+.banner-form {
+	background-color: rgba(0, 0, 0, 0.14);
+	padding: 8px;
+	max-width: 750px;
+	margin: 12px auto;
+	border-radius: 5px;
+	text-align:left;
+}
+
+.banner-form form {
+	border-radius:4px;
+	background-color:#fff;
+	position:relative;
+}
+
+.category-dropdown {
+    background-color: #fff;
+    border-right: 1px solid #e6e6e6;
+    border-radius: 5px 0px 0px 5px; 
+    min-width: 200px;
+    line-height: 45px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.category-dropdown a i{
+	margin-left: 5px;
+}
+
+.category-dropdown a {
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+    border: none;
+    border-radius: 5px 0 0 5px;
+	text-transform: capitalize;
+	font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+.banner-form input {
+	min-width: 375px;
+	padding:0 18px 0;
+	margin: 0;
+	font-family: 'MyriadPro-Regular', sans-serif;
+	border: none;
+	margin-left: -4px;
+}
+
+.banner-form .form-control, 
+.banner-form .category-dropdown {	
+	display:inline-block;
+	width:30%;
+	height:46px;
+	font-size:16px;
+	color: #000;
+}
+
+.banner-form button.btn.btn-primary {
+	position:absolute;
+	right:-2px;
+	bottom:0;
+	font-size: 16px;
+	max-width: 114px;
+	background-color: #00a651;
+	border-radius: 0 5px 5px 0 ;
+	color: #fff;
+	text-transform: uppercase;
+	border-color:#00a651;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	height:100%;
+	padding: 10px 20px;
+}
+
+.banner-form button:hover {
+	background-color: #0072bc;
+	border-color: #0072bc;
+}
+
+.banner-socail li {
+	display: inline-block;;
+}
+
+.banner-socail li a {
+	color: #fff;
+    font-size: 20px;
+    background-color:transparent;
+    display: block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+	border:1px solid transparent;
+	border-radius:3px;
+}
+
+.banner-socail li i{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.banner-socail li a:hover .fa-facebook {
+	color: #405D9B;
+}
+
+.banner-socail li a:hover .fa-twitter {
+	color: #29C5F6;
+}
+
+.banner-socail li a:hover .fa-google-plus {
+	color: #CA3E27;
+}
+
+.banner-socail li a:hover .fa-youtube {
+	color: #EB2429;
+}
+
+
+/* ==========================================================================
  	Footer
  ========================================================================== */
 /* Wrapper for page content to push down footer */

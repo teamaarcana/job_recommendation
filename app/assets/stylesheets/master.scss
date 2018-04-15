@@ -6,7 +6,7 @@ $footer-height: 45px;
 
 html,
 body {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Baumans', cursive;
 	font-weight:400;
 	color:#6f6f6f; 
 	overflow-x:hidden;
@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Baumans', cursive;
 	font-weight:normal;
 }
 
@@ -27,7 +27,7 @@ ul {
 }
 
 a {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Baumans', cursive;
 	color: #00a651;
 }
 
@@ -74,7 +74,7 @@ input:focus, textarea:focus, select:focus, .form-control:focus {
 .title {
 	line-height: 34px;
 	color: #ffffff;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Baumans', cursive;
 	font-weight: 700;
 }
 
@@ -281,7 +281,7 @@ textarea {
 	position: absolute;
 	left: 0;
 	top: 50%;
-	background-image: url(../images/1.png);
+	background-image: url('1.png');
 	background-repeat: no-repeat;
 	width: 7px;
 	height: 14px;

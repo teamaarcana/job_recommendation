@@ -3,8 +3,8 @@ default: &default
   encoding: utf8
   host: localhost
   pool: 5
-  username: ran
-  password: ranjan
+  username: d3v17
+  password: password
   socket: /var/run/postgresql
 
 development:
@@ -13,8 +13,8 @@ development:
 production:
   <<: *default
   database: job_production
-  username: ran
-  password: ranjan
+  username: d3v17
+  password: password
 test:
   <<: *default
   database: job_test

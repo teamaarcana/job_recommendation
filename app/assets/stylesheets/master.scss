@@ -1,0 +1,353 @@
+$footer-height: 45px;  
+
+/* ==========================================================================
+ 	Global
+ ========================================================================== */
+
+html,
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:400;
+	color:#6f6f6f; 
+	overflow-x:hidden;
+	-webkit-font-smoothing: antialiased;
+	background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:normal;
+}
+
+ul {
+	margin:0;
+	padding:0;
+    list-style:none;
+}
+
+a {
+	font-family: 'Ubuntu', sans-serif;
+	color: #00a651;
+}
+
+a, 
+a:hover,
+a:focus,
+input:focus {
+	text-decoration:none;
+	outline: none;
+	color:#02743a;
+}
+
+img {
+	max-width: 100%;
+}
+
+section {
+  min-width: 100%;
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+}
+
+a:active,
+a:focus, button:focus, .btn:focus,
+input:focus, textarea:focus, select:focus, .form-control:focus {
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.form-control {
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	border: 1px solid #e3e3e3;
+	height:44px;
+	color:#000;
+}
+
+.form-control:focus {
+	border-color: #00a651;
+}
+
+.title {
+	line-height: 34px;
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+.parallax-section {
+	position: relative;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+.parallax-section:before {
+ 	position: absolute;
+ 	background-color: rgba(35, 174, 121, 0.94);
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	min-height: 264px;
+ 	display:block;
+ 	content:"";
+ }
+
+.section {
+	background-color:#fff;
+	border-radius:4px;
+	padding:35px 25px;
+	margin-bottom:25px;
+}
+
+.section-title h4{
+	color:#000;
+	font-weight: 500;
+}
+
+textarea {
+	resize:none;
+}
+
+.btn.btn-primary {
+	font-size:18px;
+	font-weight:400;
+	text-transform:capitalize;
+	background-color:#00a651;
+	padding:10px 40px 12px;
+	border:0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-primary:hover {
+	background-color:#0072bc;
+	color:#fff;
+}
+
+.navbar-default .navbar-toggle {
+	border-color:#00a651;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #00a651;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+
+/* Breadcrumb */
+
+.breadcrumb-section h2.title {
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.breadcrumb-section .breadcrumb {
+	margin-bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ==========================================================================
+ 	Header
+ ========================================================================== */
+
+#header .navbar-default {
+    padding: 4px 0;
+    background: #fff;
+    border: none;
+ }
+
+.navbar-brand {
+	padding: 6px 15px;
+	height: inherit;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.nav li a,
+.navbar-default .navbar-nav>li>a {
+	background-color: transparent;
+	font-weight: 500;
+	font-size: 14px;
+	color: #0a0a0a;
+	padding: 15px 12px;
+	text-transform: uppercase;
+}
+
+.nav li a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover, 
+.dropdown-menu>.active>a, 
+.dropdown-menu>.active>a:focus, 
+.dropdown-menu>.active>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+ .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+	background-color: transparent;
+	color: #00a651;
+}
+
+
+.dropdown-menu {
+	border-radius: 0;
+}
+
+.navbar-nav .dropdown-menu>li>a {
+	padding: 6px 20px;
+	font-size:13px;
+}
+
+.dropdown-menu>li>a, 
+.dropdown-menu>li>a:hover {
+	background-color:transparent;
+}
+
+.nav-right {
+	margin-top: 4px;
+	text-align: right;
+}
+
+.language-dropdown {
+	display:inline;
+	margin-right: 10px;
+}
+
+.language-dropdown a {
+	font-size: 16px;
+	color: #252525;
+	line-height: 23px;
+}
+
+.language-dropdown a i {
+	margin-left: 5px;
+}
+
+.language-dropdown a:hover {
+	color:#00a651;
+}
+
+.language-dropdown li>a {
+	display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    color: #333;
+}
+
+.sign-in {
+	display:inline;
+}
+
+.sign-in li {
+	display:inline-block;
+	margin-top: 10px;
+}
+
+.language-dropdown i.fa-globe,
+.sign-in li i {
+	font-size: 14px;
+	color: #00a651;
+	margin-right: 5px;
+}
+
+.sign-in li:last-child {
+	position: relative;
+	padding-left: 10px;
+}
+
+.sign-in li:last-child:before {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	background-image: url(../images/1.png);
+	background-repeat: no-repeat;
+	width: 7px;
+	height: 14px;
+	content:"";
+	margin-top: -7px;
+}
+
+.nav-right .dropdown-menu {
+    margin: 18px 0 20px;
+}
+
+.nav-right .dropdown-menu li a:hover {
+	color: #00a651;
+	background-color: transparent;
+}
+
+.sign-in li a {
+	color: #000000;
+	font-size: 14px;
+}
+
+.sign-in li a:hover {
+	color: #00a651;
+}
+
+#header a.btn,
+.download-button a.btn {
+	padding: 5px 25px 7px;
+	background-color: #0072bc;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 20px;
+}
+
+#header a.btn:hover,
+.download-button a.btn:hover {
+	background-color: #00a651;
+}
+
+.badge {
+	background-color: #00a651;
+	margin-left: 5px;
+	font-size: 10px;
+	font-weight: 500;
+	padding-bottom: 2px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -45px;
+  /* Pad bottom by footer height */
+  padding: 0 0 45px;
+}
+
+/* Set the fixed height of the footer here */
+.footer {
+  height: 45px;
+}

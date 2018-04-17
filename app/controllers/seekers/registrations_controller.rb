@@ -49,7 +49,7 @@ class Seekers::RegistrationsController < Devise::RegistrationsController
      edit_seeker_registration_path
   end
   def configure_permitted_parameters
-        devise_parameter_sanitizer.permit :account_update, keys: [:location, :photo,:prefered_loc,
+        devise_parameter_sanitizer.permit :account_update, keys: [:photo,:prefered_loc,
                                                                 :experience,:salary,:dob,:nationality,:perm_address,
                                                                 :temp_address,:cv,:job_status,:description,:certificate]
   end

@@ -16,7 +16,7 @@ gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'carrierwave'
-
+gem 'pry'
 #Use bootstrap,jquery & fontawesome for design
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'

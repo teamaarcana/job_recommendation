@@ -15,23 +15,23 @@
                   <%= devise_error_messages! %>
                   <div class="form-group">
                     <%= f.label :first_name %><br />
-                    <%= f.text_field :first_name,class:"form-control", autofocus: true %>
+                    <%= f.text_field :first_name, :required => true,class:"form-control", autofocus: true %>
                   </div>
                   <div class="form-group">
                     <%= f.label :last_name %><br />
-                    <%= f.text_field :last_name,class:"form-control" %>
+                    <%= f.text_field :last_name, :required => true,class:"form-control" %>
                   </div>
                   <div class="field">
                     <%= f.label :phone_no %><br />
-                    <%= f.text_field :phone_no,class:"form-control" %>
+                    <%= f.text_field :phone_no, :required => true, :pattern=>"[0-9]{9,10}", class:"form-control" %>
                   </div>
                   <div class="form-group">
                     <%= f.label :sex %><br />
-                    <%= f.text_field :sex,class:"form-control" %>
+                    <%= f.text_field :sex, :required => true,class:"form-control" %>
                   </div>
                   <div class="form-group">
                     <%= f.label :email %><br />
-                    <%= f.email_field :email, autocomplete: "email",class:"form-control" %>
+                    <%= f.email_field :email, autocomplete: "email", :required => true,class:"form-control" %>
                   </div>
 
                   <div class="form-group">
@@ -39,12 +39,12 @@
                     <% if @minimum_password_length %>
                     <em>(<%= @minimum_password_length %> characters minimum)</em>
                     <% end %><br />
-                    <%= f.password_field :password, autocomplete: "off",class:"form-control" %>
+                    <%= f.password_field :password, autocomplete: "off", :required => true, :pattern=>"(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}", :title=>"Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters", class:"form-control" %>
                   </div>
 
                   <div class="form-group">
                     <%= f.label :password_confirmation %><br />
-                    <%= f.password_field :password_confirmation, autocomplete: "off",class:"form-control" %>
+                    <%= f.password_field :password_confirmation, autocomplete: "off", :required => true, class:"form-control" %>
                   </div>
 
                   <div class="form-group">

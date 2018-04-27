@@ -48,11 +48,12 @@ class Seekers::RegistrationsController < Devise::RegistrationsController
   def after_sign_up_path_for(resource)
      edit_seeker_registration_path
   end
-  def configure_permitted_parameters
-        devise_parameter_sanitizer.permit :account_update, keys: [:photo,:prefered_loc,
-                                                                :experience,:salary,:dob,:nationality,:perm_address,
-                                                                :temp_address,:cv,:job_status,:description,:certificate]
-  end
+  # def configure_permitted_parameters
+  #   binding.pry
+  #       devise_parameter_sanitizer.permit :account_update, keys: [:photo,:prefered_loc,
+  #                                                               :experience,:salary,:dob,:nationality,:perm_address,
+  #                                                               :temp_address,:cv,:job_status,:description,:certificate]
+  # end
   # The path used after sign up for inactive accounts.
   # def after_inactive_sign_up_path_for(resource)
   #   super(resource)

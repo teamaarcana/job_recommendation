@@ -7,4 +7,8 @@ class Seeker < ApplicationRecord
   has_many :skills
   has_one :education
   validates :first_name, :last_name, :phone_no,:sex, presence: true
+
+  def formatDob
+   dob.strptime(val, '%Y-%m-%d')
+  end
 end

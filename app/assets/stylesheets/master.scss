@@ -387,6 +387,129 @@ textarea {
 	color: #00a651;
 }
 
+.job-category-items {
+	margin-top: 55px;
+	padding: 50px 25px 20px;
+}
+
+.job-category-items .category-list .category-icon {
+	margin-bottom: 5px;
+}
+
+.job-category-items .category-list li {
+	width: 16.6%;
+	float: left;
+	min-height: 90px;
+	margin-bottom: 25px;
+}
+
+.latest-jobs-ads .section-title {
+	padding-bottom: 0;
+}
+
+.job-ad-item img {
+	width: inherit;
+}
+
+.job-ad-item {
+	padding: 15px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #f3f3f3;
+	margin: 18px 0;
+	border-radius:2px;	
+}
+
+.job-ad-item .ad-meta {
+	position: inherit;
+	background-color: transparent;
+	border-top: none;
+	padding-left: 0;
+	min-height: inherit;
+	display: inline;
+}
+
+.job-ad-item .ad-meta li {
+	float: left;
+	margin-left: 20px;
+}
+
+.job-ad-item .item-image-box,
+.job-ad-item .ad-info {
+	float: left;
+}
+
+.job-ad-item .ad-info {
+	padding: 5px 25px;
+}
+
+.job-ad-item .ad-info span {
+	color: #000;
+	font-size: 20px;	
+	display: block;
+	margin-bottom: 10px;
+}
+
+.job-ad-item .ad-info span a {
+	color: #000;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.job-ad-item .ad-info a.title {
+	font-weight: 300;
+	color: #000;
+	font-weight: 500;
+}
+
+.job-ad-item .ad-meta li:first-child {
+	margin-left: 0;
+}
+
+.job-ad-item .ad-meta a,
+.job-ad-item .ad-meta li {
+	font-size: 14px;
+	color: #a0a0a0;
+}
+
+.job-ad-item .ad-meta i,
+.job-ad-item .ad-meta a i {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.job-ad-item .ad-info span a:hover,
+.job-ad-item a:hover {
+	color: #00a651;
+}
+
+.job-ad-item .button {
+	float: right;
+}
+
+.job-ad-item .item-image {
+    width: 95px;
+    height: 85px;
+    border: 1px solid #f3f3f3;
+    overflow: hidden;
+}
+
+.job-ad-item .item-info {
+	min-height: 0;
+	overflow: hidden;
+}
+
+.latest-jobs-ads .nav-tabs>li>a {
+	margin-right: 0;
+}
+
+.job-ad-item .btn.btn-primary {
+	padding: 5px 30px 6px;
+	margin-top: 25px;
+	font-size: 14px;
+	margin-right: 25px;
+}
+
 
 /* ==========================================================================
  	banner-form
@@ -512,6 +635,40 @@ textarea {
 
 .banner-socail li a:hover .fa-youtube {
 	color: #EB2429;
+}
+
+.tab-manu {
+	overflow:hidden;
+	border-bottom: 1px solid #f2f2f2
+}
+
+.tab-manu h4 {
+	float:left;
+	margin-bottom: 14px;
+}
+
+.tab-manu .nav-tabs {
+	float:right;
+	border: none;
+	border: 1px solid transparent;
+}
+
+.tab-manu .nav-tabs li a {
+	padding:12px 15px;
+	border-bottom:0;
+	text-transform:capitalize;
+	color:#9c9c9c;
+	margin-left: 2px;
+}
+
+.tab-manu .nav-tabs li a:hover,
+.tab-manu .nav-tabs li a:focus,
+.tab-manu .nav-tabs li.active a {
+	border:1px solid #f2f2f2;
+	background-color: #fcfcfc;
+	border-bottom: #f2f2f2;
+	border-radius: 0;
+	color: #00a651;
 }
 
 
